@@ -1,4 +1,20 @@
+import { useState,useEffect } from "react"
+import { consultarUsuarios } from "../../../services/serviciosUsuarios"
+
 export function Api(){
+
+    const[usuarios,setUsuarios]=useState(null)
+    const[estaCargandoAPI, setCargandoAPI]=useState(true)
+
+    useEffect(function(){
+        consultarUsuarios()
+        .then(function(respuesta){
+            console.log(respuesta)
+            setUsuarios(respuesta)
+            setCargandoAPI(false)
+        })
+    },[])
+
     return(
 
         <>

@@ -16,7 +16,7 @@ export function Analitica(){
                         <div className="card my-3 shadow h-100 p-4">
                             <h3>Asistencia vs Medio de transporte</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ut, aperiam repellat eius minima minus tempora, nulla sunt dicta nisi, iste beatae. Hic modi laborum a vel enim, quidem consectetur.</p>
-                            <img src="../../../../src/assets/img/barras.webp" alt="barras" className="img-fluid" />
+                            <img src="../../../../src/assets/img/Figure_1.png" alt="barras" className="img-fluid" />
                         </div>
                     </div>
                 </section>
